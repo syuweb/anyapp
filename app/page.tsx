@@ -16,7 +16,7 @@ export default function Page() {
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
-          <Button color="primary" onPress={() => alert(`こんにちは ${name}`)}>
+          <Button color="primary" onPress={() => alert(`Hello ${name} !`)}>
             挨拶する
           </Button>
         </CardBody>
